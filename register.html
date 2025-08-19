@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>My First Web Page</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>My Webpage Header</h1>
+        </header>
+        <nav>
+            <a href = "index.html">Home</a>
+            <a href = "">About</a>
+            <a href = "">Services</a>
+            <a href = "register.html">Register</a>
+            <a href = "">Conatct</a>
+        </nav>
+        <div id = "sidebar">
+            <h2>Sidebar</h2>
+            <p>Additional links or information can go here</p>
+        </div>
+
+        <div class = "content">
+            <form>
+                <fieldset>
+                    <legend>Please enter your details below:</legend>
+                    <p>First Name:</p>
+                    <input type = "text" name = "firstName" maxlength="30">
+                     <p>Last Name:</p>
+                    <input type = "text" name = "lastName" maxlength="30">
+                     <p>Email Address:</p>
+                    <input type = "text" name = "email" maxlength="30">
+                     <p>Date of Birth:</p>
+                    <input type = "date" name = "dob" maxlength="30">
+                </fieldset>
+                <fieldset>
+                    <legend>Select NCV Level</legend>
+                    <select name = "level">
+                        <option value = "L2">NCV Level 2</option>
+                        <option value = "L3">NCV Level 3</option>
+                        <option value = "L4">NCV Level 4</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Select NCV Subject</legend>
+                    <input type = "checkbox" name = "english">English<br/>
+                    <input type = "checkbox" name = "mathamatics">Mathamatics<br/>
+                    <input type = "checkbox" name = "lo">LO<br/>
+                </fieldset>
+                <fieldset>
+                    <input type = "submit" value = "Submit">
+                    <input type = "reset" value = "Clear">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+
+    <footer>
+      <p>Footer &copy; 2025</p>  
+    </footer>
+</html>
